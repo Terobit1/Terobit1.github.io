@@ -1,0 +1,48 @@
+body {
+  background-color: #b2abab;
+  margin: 0;
+}
+
+header {
+  background-color: #fff;
+  width: 100%;
+  height: 50px;
+  margin: 0;
+}
+
+footer {
+
+  background-color: #000;
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.project {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+
+}
+
+.container {
+  background-color: #7c7979;
+  width: 400px;
+  height: 200px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 1%;
+}
+
+.container a {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
