@@ -1,10 +1,84 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>My project</title>
-  </head>
-  <body>
-    <a href="#">Project 1</a>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>My project</title>
+</head>
+
+<body>
+  <style media="screen">
+    body {
+      background-color: #b2abab;
+      margin: 0;
+    }
+
+    header {
+      background-color: #fff;
+      width: 100%;
+      height: 50px;
+      margin: 0;
+    }
+
+    footer {
+
+      background-color: #000;
+      width: 100%;
+      height: 50px;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+    }
+
+    .project {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: center;
+
+    }
+
+    .container {
+      background-color: #7c7979;
+      width: 400px;
+      height: 200px;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      margin: 1%;
+    }
+
+    .container a {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+    }
+  </style>
+  <header>
+
+  </header>
+  <div class="project">
+    <div class="container">
+      <a href="#">Project 1</a>
+    </div>
+    <div class="container">
+      <a href="#">Project 2</a>
+    </div>
+    <div class="container">
+      <a href="#">Project 3</a>
+    </div>
+    <div class="container">
+      <a href="#">Project 4</a>
+    </div>
+    <div class="container">
+      <a href="#">Project 5</a>
+    </div>
+  </div>
+  <footer></footer>
+</body>
+
 </html>
+<link rel="stylesheet" href="/css/master.css">
