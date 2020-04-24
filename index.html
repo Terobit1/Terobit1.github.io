@@ -6,36 +6,57 @@
   <meta charset="utf-8">
   <title>My project</title>
   <link rel="stylesheet" href="style.css">
-   <link rel="shortcut icon" href="logotip.svg" width="100" height="75" type="image/x-icon">
+   <link rel="shortcut icon" href="logo.svg" type="image/x-icon">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-  <header>
+  <div class="preloader ">
+    <div class="loading-animation">
+          <img src="logo.svg" class="logopreload" alt="">
+      <div class="loading-bar"></div>
+    </div>
+  </div>
 
-    <object type="image/svg+xml" data="logo.svg" width="100" height="75" >
-       Your browser does not support SVG
-    </object>
+  <header>
+    <div class="share-button">
+      <span><i class="fas fa-share"></i>   My contacts</span>
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-telegram-plane"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="far fa-envelope"></i></a>
+    </div>
+    <div class="logo">
+        <img src="logo.svg" alt="">
+    </div>
+
 
   </header>
-  <div class="project">
-    <div class="container">
+  <div class="project  ">
+    <div class="container  ">
       <a href="https://terobit1.github.io/Portfolic-1/index.html">Project 1</a>
     </div>
-    <div class="container">
+    <div class="container  ">
       <a href="#">Project 2</a>
     </div>
-    <div class="container">
+    <div class="container ">
       <a href="#">Project 3</a>
     </div>
-    <div class="container">
+    <div class="container ">
       <a href="#">Project 4</a>
     </div>
-    <div class="container">
+    <div class="container item">
       <a href="#">Project 5</a>
     </div>
   </div>
   <footer></footer>
 </body>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script type="text/javascript">
+   setTimeout(function () {
+     $('.preloader').fadeToggle();
+   },1500);
+</script>
 </html>
