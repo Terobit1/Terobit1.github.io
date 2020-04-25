@@ -52,6 +52,10 @@ body {
   opacity: 0;
   transition: 0.3s linear;
 }
+.share-button:active  {
+  opacity: 1;
+  transform: translateX(0);
+}
 
 .share-button:hover a{
   opacity: 1;
