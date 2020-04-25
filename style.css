@@ -52,7 +52,7 @@ body {
   opacity: 0;
   transition: 0.3s linear;
 }
-.share-button:active  {
+.share:active .share-button{
   opacity: 1;
   transform: translateX(0);
 }
