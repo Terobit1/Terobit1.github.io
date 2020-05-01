@@ -9,88 +9,45 @@ body {
     border-radius: 12px 12px 0 0;
 
 }
-.share-button{
-  box-shadow: 0 0 3px;
-  margin-top: 12px;
-  margin-right: 20px;
+
+.final__dropdown{
   float: right;
-  width: 240px;
-  height: 50px;
-  background: #FFB473;
-  border-radius: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
   position: relative;
-  cursor: pointer;
-  transition: .3s linear;
+  margin: 10px;
+  display: inline-block;
 }
+  .final__dropdown__hover{
+    display: inline-block;
+    padding: 10px;
+    background-color:#323b40;
+    color: #ffffff;
+    border:0 solid #323b40;
+    cursor: pointer;
+  }
+  .final__dropdown__hover:hover{background-color: #222222;}
+  .final__dropdown__menu{
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: 0;
+    min-width: 200px;
+    background-color: #ffffff;
+    color: #323b40;
+    box-shadow: 0 3px 2px rgba(0,0,0,0.3);
+  }
+  .final__dropdown:hover .final__dropdown__menu{display: block;}
+    .final__dropdown__menu a{
+      display: block;
+      padding: 10px;
+      text-decoration: none;
+      border-width: 0;
+      border-top: 1px solid #e0e0e0;
+    }
+    .final__dropdown__menu a:hover{
+      background-color:#f0f0f0;
+      color: #323b40;
+    }
 
-.share-button:hover{
-  transform: scale(1.1);
-}
-
-
-/* .share-button:active {
-  transform: scale(1.1);
-} */
-
-.share-button span{
-  font-family: 'Fredoka One', cursive;
-  position: absolute;
-  width: 100%;
-  background: #000;
-  color: #f1f1f1;
-  text-align: center;
-  line-height: 80px;
-  z-index: 998;
-  transition: .6s linear;
-  border-radius: 40px;
-}
-/* .share-button:active  span{
-  transform: translateX(-100%);
-  transition-delay: .3s;
-} */
-.share-button:hover span{
-  transform: translateX(-100%);
-  transition-delay: .3s;
-}
-
-.share-button a{
-  flex: 1;
-  font-size: 26px;
-  color: #000;
-  text-align: center;
-  transform: translateX(-100%);
-  opacity: 0;
-  transition: 0.3s linear;
-}
-/* .share-button:active {
-  opacity: 1;
-  transform: translateX(0);
-} */
-
-.share-button:hover a{
-  opacity: 1;
-  transform: translateX(0);
-}
-
-.share-button a:nth-of-type(1){
-  transition-delay: 1s;
-}
-
-.share-button a:nth-of-type(2){
-  transition-delay: 0.8s;
-}
-
-.share-button a:nth-of-type(3){
-  transition-delay: 0.6s;
-}
-
-.share-button a:nth-of-type(4){
-  transition-delay: 0.4s;
-}
 
 header {
   background-color: #FF9840	;
