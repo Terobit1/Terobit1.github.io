@@ -31,6 +31,11 @@ body {
   transform: scale(1.1);
 }
 
+
+/* .share-button:active {
+  transform: scale(1.1);
+} */
+
 .share-button span{
   font-family: 'Fredoka One', cursive;
   position: absolute;
@@ -43,10 +48,10 @@ body {
   transition: .6s linear;
   border-radius: 40px;
 }
-.share-button:focus span{
+/* .share-button:active  span{
   transform: translateX(-100%);
   transition-delay: .3s;
-}
+} */
 .share-button:hover span{
   transform: translateX(-100%);
   transition-delay: .3s;
@@ -61,10 +66,10 @@ body {
   opacity: 0;
   transition: 0.3s linear;
 }
-.share-button:active {
+/* .share-button:active {
   opacity: 1;
   transform: translateX(0);
-}
+} */
 
 .share-button:hover a{
   opacity: 1;
